@@ -197,6 +197,10 @@
 .layout__center .fn__flex-1.fn__flex [data-type='wnd']{
     margin: 10px auto;
     max-width: 1500px;
+    background: url("./assets/diana.png") no-repeat;
+    background-size: 10%;
+    background-position: 100% bottom;
+
 }
 
 .fn__flex-1.fn__flex [data-type='wnd']{
@@ -210,6 +214,9 @@
 	z-index: 2;
 	box-sizing: border-box;
     border-radius: 6px;
+    background: url("./assets/diana.png") no-repeat;
+    background-size: 50%;
+    background-position: 100% bottom;
 }
 
 [data-type='wnd']::before{
@@ -226,8 +233,8 @@
     /* background-color: rgb(255 255 255 / 64%); */
     border-radius: 8px;
     padding: 8px 10px;
-    border-left: 1px outset #6565655e;
-    border-top: 1px outset #8c8c8c5e;
+    border-left: 1px outset var(--color-main);
+    border-top: 1px outset var(--color-main);
 
 }
 .layout__center .fn__flex-1.fn__flex [data-type='wnd']{
