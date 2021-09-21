@@ -46,7 +46,7 @@
     --b3-font-family-graph: mononoki;
     /* 线条 */
     /* --b3-border-color: #dfe0e1; */
-    --b3-border-color: #1C76D1;
+    --b3-border-color: #8D939A;
 
     /* 滚动条 m */
     /* --b3-scroll-color: rgba(0, 0, 0, .2); */
@@ -1338,14 +1338,21 @@ div[data-subtype='t'][data-type='NodeList'] {
 }
 
 .layout-tab-bar .item {
-    padding: 4px 4px 4px 14px;
-    border: 0px;
+    color: var(--b3-menu-highlight-focus-color);
+    font-weight: 600;
+
+/*     border-color: #e9f1f5;
+    border-right: 1px solid #b7b8b9;
+    border-left: 1px solid #b7b8b9;
+    /* 更改多窗口标签页当前页面底框高亮颜色 */
+    /* border-bottom: 2px solid #34495e7c; */
+    /* background-color: #00aaff; */
+
     border-bottom: 2px solid transparent;
     border-right: 2px solid #b7b8b97c;
     border-left: 2px solid #b7b8b97c;
-    border-radius: 7px 7px 0px 0px;
-    margin-right: 2px;
     background-color: #d5dde270;
+    border-radius: 40px;
     /* transition: all 0.1s ease; */
 }
 
