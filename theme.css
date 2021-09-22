@@ -197,9 +197,6 @@
 .layout__center .fn__flex-1.fn__flex [data-type='wnd']{
     margin: 10px auto;
     max-width: 1500px;
-    background: url("./assets/diana.png") no-repeat;
-    background-size: 10%;
-    background-position: 100% bottom;
 
 }
 
@@ -246,6 +243,9 @@
   
     border-radius: 10px;
     box-shadow: 0px 5px 10px var(--color-main);
+    background: url("./assets/diana.png") no-repeat;
+    background-size: 10%;
+    background-position: 100% bottom;
     z-index: 0;
 
 }
@@ -258,6 +258,7 @@
     background-color: var(--b3-protyle-inline-link-color);
     box-shadow: 0 0 2px var(--b3-protyle-inline-link-color);
     opacity: 0.9;
+
 }
 
 [data-type='wnd'] .layout-tab-container ,[data-type='wnd'] .protyle,[data-type='wnd'] .protyle-content,[data-type='wnd'] .protyle-wysiwyg,.block__icons{
@@ -1338,11 +1339,7 @@ div[data-subtype='t'][data-type='NodeList'] {
     background-color: transparent;
 }
 
-.layout__wnd--active .protyle-content,
-.layout__wnd--active .protyle-title .protyle-title__input {
-    /* 当前编辑窗口保持主背景色 */
-    background-color: #fff;
-}
+
 
 .layout-tab-bar .item {
     color: var(--b3-menu-highlight-focus-color);
